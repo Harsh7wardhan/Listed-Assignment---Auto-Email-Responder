@@ -1,19 +1,20 @@
 **Email Autoresponder**
+
 Email Autoresponder is a Node.js application that automatically checks for new emails in a Gmail account, sends replies to emails that have no prior replies, adds labels to the emails, and repeats this process at random intervals. It utilizes the Gmail API for email retrieval, sending replies, and modifying labels.
 
-Features
+**Features**
 Automatically checks for new emails in a Gmail account
 Sends replies to emails that have no prior replies
 Adds a label to the replied emails
 Randomizes the intervals between each check and reply process
-Installation
-Clone the repository:
 
+**Installation**
+Clone the repository:
 bash
 Copy code
 git clone https://github.com/your-username/gmail-autoresponder.git
-Install the dependencies:
 
+**Install the dependencies:**
 bash
 Copy code
 cd gmail-autoresponder
@@ -25,7 +26,6 @@ Create a new project and enable the Gmail API.
 Create OAuth 2.0 credentials and download the JSON file.
 Rename the downloaded JSON file to credentials.json and place it in the project root directory.
 Start the application:
-
 bash
 Copy code
 npm start
