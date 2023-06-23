@@ -1,4 +1,4 @@
-#Email Autoresponder#
+**Email Autoresponder**
 Email Autoresponder is a Node.js application that automatically checks for new emails in a Gmail account, sends replies to emails that have no prior replies, adds labels to the emails, and repeats this process at random intervals. It utilizes the Gmail API for email retrieval, sending replies, and modifying labels.
 
 Features
